@@ -7,5 +7,8 @@ for number in range(1,10):
 	userInput = int(input("Enter a random number"))
 
 	if userInput == firstNumber + secondNumber:
-		print("")
+		print("correct")
+
+	else if userInput == firstNumber * secondNumber:
+		print("correct")
 print(userInput)
