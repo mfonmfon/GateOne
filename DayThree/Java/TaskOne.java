@@ -10,27 +10,29 @@ public class TaskOne{
 	int firstNumber = rand.nextInt();
 	int secondNumber = rand.nextInt();
 
-	
 	int correct = firstNumber + secondNumber;
+	 correct = firstNumber - secondNumber;
+	correct = firstNumber * secondNumber;
+	correct = firstNumber / secondNumber;
 	
 	for(int index = 0; index < 10; index++){
 	System.out.print("Generate random numbers from 1 - 10 ");
 	int studentInput = scan.nextInt();
 	
 	
-	if(studentInput(index) == firstNumber + secondNumber){
+	if(correct == firstNumber + secondNumber){
 		
 		System.out.println("correct");
 
 	}
-	else if(studentInput == firstNumber - secondNumber){
+	else if(correct == firstNumber - secondNumber){
 		System.out.println("correct");
 	}
-	else if("studentInput == firstNumber * secondNumber");
+	else if("correct == firstNumber * secondNumber");
 		System.out.println("correct");
 	
 	}
-	else if(studentInput == firstNumber / secondNumber){
+	else if(correct == firstNumber / secondNumber){
 		System.out.println("correct");
 
 	}
